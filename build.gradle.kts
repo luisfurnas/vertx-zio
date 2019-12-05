@@ -8,6 +8,7 @@ repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    mavenCentral()
 }
 
 val scalaVersion = "2.12.10"
@@ -32,7 +33,7 @@ dependencies {
 
     // Functional awesomeness
     implementation("org.typelevel:cats-core_2.12:2.0.0")
-    implementation("dev.zio:zio_2.12:1.0.0-RC13")
+    implementation("dev.zio:zio_2.12:1.0.0-RC17")
 
     // Use Scalatest for testing our library
     testImplementation("junit:junit:4.12")

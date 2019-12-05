@@ -2,8 +2,6 @@ package vertx
 
 package object web {
 
-  final case class ServerConfig(host: String, port: Int)
-
   val HTTP_HOST = "http_host"
   val HTTP_PORT = "http_port"
 
